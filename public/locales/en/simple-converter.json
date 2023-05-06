@@ -1,0 +1,722 @@
+{
+	"group": {
+		"decimal": "Decimal",
+		"binary": "Binary",
+		"metric": "Metric",
+		"imperial": "Imperial",
+		"others": "Others",
+		"uk": "UK",
+		"us": "US",
+		"standard": "Standard"
+	},
+
+	"angle": {
+		"degree": {
+			"label": "Degree",
+			"short": "°"
+		},
+		"radian": {
+			"label": "Radian",
+			"short": "rad"
+		},
+		"turn": {
+			"label": "Turn",
+			"short": "tr"
+		},
+		"gradian": {
+			"label": "Gradian",
+			"short": "gon"
+		},
+		"minute": {
+			"label": "Minute",
+			"short": "'"
+		},
+		"second": {
+			"label": "Second",
+			"short": "\""
+		}
+	},
+
+	"area": {
+		"sq-millimeter": {
+			"label": "Square Millimeter",
+			"short": "mm²"
+		},
+		"sq-centimeter": {
+			"label": "Square Centimeter",
+			"short": "cm²"
+		},
+		"sq-meter": {
+			"label": "Square Meter",
+			"short": "m²"
+		},
+		"sq-kilometer": {
+			"label": "Square Kilometer",
+			"short": "km²"
+		},
+		"hectare": {
+			"label": "Hectare",
+			"short": "ha"
+		},
+
+		"sq-mile": {
+			"label": "Square Mile",
+			"short": "mi²"
+		},
+		"sq-yard": {
+			"label": "Square Yard",
+			"short": "yd²"
+		},
+		"sq-foot": {
+			"label": "Square Foot",
+			"short": "ft²"
+		},
+		"sq-inch": {
+			"label": "Square Inch",
+			"short": "in²"
+		},
+		"acre": {
+			"label": "Acre",
+			"short": "ac"
+		}
+	},
+
+	"data-storage": {
+		"bit": {
+			"label": "Bit",
+			"short": "b"
+		},
+
+		"kilobit": {
+			"label": "Kilobit",
+			"short": "kbit"
+		},
+		"kilobyte": {
+			"label": "Kilobyte",
+			"short": "kB"
+		},
+		"megabit": {
+			"label": "Megabit",
+			"short": "Mbit"
+		},
+		"megabyte": {
+			"label": "Megabyte",
+			"short": "MB"
+		},
+		"gigabit": {
+			"label": "Gigabit",
+			"short": "Gbit"
+		},
+		"gigabyte": {
+			"label": "Gigabyte",
+			"short": "GB"
+		},
+		"terabit": {
+			"label": "Terabit",
+			"short": "Tbit"
+		},
+		"terabyte": {
+			"label": "Terabyte",
+			"short": "TB"
+		},
+		"petabit": {
+			"label": "Petabit",
+			"short": "Pbit"
+		},
+		"petabyte": {
+			"label": "Petabyte",
+			"short": "PB"
+		},
+		"exabit": {
+			"label": "Exabit",
+			"short": "Ebit"
+		},
+		"exabyte": {
+			"label": "Exabyte",
+			"short": "EB"
+		},
+		"zettabit": {
+			"label": "Zettabit",
+			"short": "Zbit"
+		},
+		"zettabyte": {
+			"label": "Zettabyte",
+			"short": "ZB"
+		},
+
+		"byte": {
+			"label": "Byte",
+			"short": "B"
+		},
+		"kibibit": {
+			"label": "Kibibit",
+			"short": "Kibit"
+		},
+		"kibibyte": {
+			"label": "Kibibyte",
+			"short": "KiB"
+		},
+		"mebibit": {
+			"label": "Mebibit",
+			"short": "Mibit"
+		},
+		"mebibyte": {
+			"label": "Mebibyte",
+			"short": "MiB"
+		},
+		"gibibit": {
+			"label": "Gibibit",
+			"short": "Gibit"
+		},
+		"gibibyte": {
+			"label": "Gibibyte",
+			"short": "GiB"
+		},
+		"tebibit": {
+			"label": "Tebibit",
+			"short": "Tibit"
+		},
+		"tebibyte": {
+			"label": "Tebibyte",
+			"short": "TiB"
+		},
+		"pebibit": {
+			"label": "Pebibit",
+			"short": "Pibit"
+		},
+		"pebibyte": {
+			"label": "Pebibyte",
+			"short": "PiB"
+		},
+		"exbibit": {
+			"label": "Exbibit",
+			"short": "Eibit"
+		},
+		"exbibyte": {
+			"label": "Exbibyte",
+			"short": "EiB"
+		}
+	},
+
+	"energy": {
+		"joule": {
+			"label": "Joule",
+			"short": "J"
+		},
+		"kilo-joule": {
+			"label": "Kilo-joule",
+			"short": "kJ"
+		},
+		"watt-hour": {
+			"label": "Watt-hour",
+			"short": "Wh"
+		},
+		"kilo-watt-hour": {
+			"label": "Kilowatt-hour",
+			"short": "kWh"
+		},
+		"small-calorie": {
+			"label": "Calorie",
+			"short": "cal",
+			"append": "(gram / small)"
+		},
+		"large-calorie": {
+			"label": "Calorie",
+			"short": "cal",
+			"append": "(kilogram / large)"
+		},
+
+		"electronvolt": {
+			"label": "Electronvolt",
+			"short": "eV"
+		},
+		"british-thermal": {
+			"label": "British Thermal Unit",
+			"short": "BTU"
+		}
+	},
+
+	"force": {
+		"newton": {
+			"label": "Newton",
+			"short": "N"
+		},
+		"kilo-newton": {
+			"label": "Kilo-newton",
+			"short": "kN"
+		},
+
+		"kilogram-force": {
+			"label": "Kilogram-force",
+			"short": "kgf"
+		},
+		"ton-force-metric": {
+			"label": "Ton-force",
+			"short": "tf",
+			"append": "(metric)"
+		},
+
+		"pound-force": {
+			"label": "Pound-force",
+			"short": "lbf"
+		},
+		"kip-force": {
+			"label": "Kip-force",
+			"short": "kipf"
+		},
+
+		"dyne": {
+			"label": "Dyne",
+			"short": "dyn"
+		}
+	},
+
+	"frequency": {
+		"hertz": {
+			"label": "Hertz",
+			"short": "Hz"
+		},
+		"kilo-hertz": {
+			"label": "Kilohertz",
+			"short": "kHz"
+		},
+		"mega-hertz": {
+			"label": "Megahertz",
+			"short": "MHz"
+		},
+		"giga-hertz": {
+			"label": "Gigahertz",
+			"short": "GHz"
+		},
+		"tera-hertz": {
+			"label": "Terahertz",
+			"short": "THz"
+		},
+		"peta-hertz": {
+			"label": "Petahertz",
+			"short": "PHz"
+		}
+	},
+
+	"fuel-consumption": {
+		"meter-liter": {
+			"label": "Meter per liter",
+			"short": "m/L"
+		},
+		"kilometer-liter": {
+			"label": "Kilometer per liter",
+			"short": "km/L"
+		},
+		"mile-gallon-uk": {
+			"label": "Mile per gallon",
+			"short": "mpg",
+			"append": "(UK)"
+		},
+		"mile-gallon-us": {
+			"label": "Mile per gallon",
+			"short": "mpg",
+			"append": "(US)"
+		}
+	},
+
+	"length": {
+		"nanometer": {
+			"label": "Nanometer",
+			"short": "nm"
+		},
+		"micrometer": {
+			"label": "Micrometer",
+			"short": "µm"
+		},
+		"millimeter": {
+			"label": "Millimeter",
+			"short": "mm"
+		},
+		"centimeter": {
+			"label": "Centimeter",
+			"short": "cm"
+		},
+		"meter": {
+			"label": "Meter",
+			"short": "m"
+		},
+		"kilometer": {
+			"label": "Kilometer",
+			"short": "km"
+		},
+
+		"inch": {
+			"label": "Inch",
+			"short": "in"
+		},
+		"foot": {
+			"label": "Foot",
+			"short": "ft"
+		},
+		"yard": {
+			"label": "Yard",
+			"short": "yd"
+		},
+		"mile": {
+			"label": "Mile",
+			"short": "mi"
+		}
+	},
+
+	"numbers": {
+		"decimal": {
+			"label": "Decimal",
+			"short": "dec"
+		},
+		"binary": {
+			"label": "Binary",
+			"short": "bin"
+		},
+		"octal": {
+			"label": "Octal",
+			"short": "oct"
+		},
+		"hexadecimal": {
+			"label": "Hexadecimal",
+			"short": "hex"
+		}
+	},
+
+	"power": {
+		"nanowatt": {
+			"label": "Nanowatt",
+			"short": "nW"
+		},
+		"microwatt": {
+			"label": "Microwatt",
+			"short": "µW"
+		},
+		"milliwatt": {
+			"label": "Milliwatt",
+			"short": "mW"
+		},
+		"centiwatt": {
+			"label": "Centiwatt",
+			"short": "cW"
+		},
+		"watt": {
+			"label": "Watt",
+			"short": "W"
+		},
+		"kilowatt": {
+			"label": "Kilowatt",
+			"short": "kW"
+		},
+		"megawatt": {
+			"label": "Megawatt",
+			"short": "MW"
+		},
+		"gigawatt": {
+			"label": "Gigawatt",
+			"short": "GW"
+		},
+		"terawatt": {
+			"label": "Terawatt",
+			"short": "TW"
+		},
+		"petawatt": {
+			"label": "Petawatt",
+			"short": "PW"
+		},
+		"horsepower-metric": {
+			"label": "Horsepower",
+			"short": "hp",
+			"append": "(metric)"
+		},
+		"horsepower-imperial": {
+			"label": "Horsepower",
+			"short": "hp",
+			"append": "(imperial)"
+		}
+	},
+
+	"pressure": {
+		"pascal": {
+			"label": "Pascal",
+			"short": "Pa"
+		},
+		"kilopascal": {
+			"label": "Kilopascal",
+			"short": "kPa"
+		},
+		"bar": {
+			"label": "Bar",
+			"short": "bar"
+		},
+		"psi": {
+			"label": "Pound per square inch",
+			"short": "psi"
+		},
+		"ksi": {
+			"label": "Kilopound per square inch",
+			"short": "ksi"
+		}
+	},
+
+	"speed": {
+		"meter-second": {
+			"label": "Meter per second",
+			"short": "m/s"
+		},
+		"kilometer-hour": {
+			"label": "Kilometer per hour",
+			"short": "km/h"
+		},
+		"foot-second": {
+			"label": "Foot per second",
+			"short": "ft/s"
+		},
+		"mile-hour": {
+			"label": "Mile per hour",
+			"short": "mph"
+		},
+		"knot": {
+			"label": "Nautical miles per hour",
+			"short": "kn"
+		},
+		"mach": {
+			"label": "Mach",
+			"short": "Ma",
+			"description": "Assuming standard temperature and pressure conditions"
+		}
+	},
+
+	"temperature": {
+		"celsius": {
+			"label": "Celsius",
+			"short": "°C"
+		},
+		"fahrenheit": {
+			"label": "Fahrenheit",
+			"short": "°F"
+		},
+		"kelvin": {
+			"label": "Kelvin",
+			"short": "K"
+		},
+		"rankine": {
+			"label": "Rankine",
+			"short": "°R"
+		},
+		"reaumur": {
+			"label": "Réaumur",
+			"short": "°Ré"
+		}
+	},
+
+	"time": {
+		"nanosecond": {
+			"label": "Nanosecond",
+			"short": "ns"
+		},
+		"microsecond": {
+			"label": "Microsecond",
+			"short": "µs"
+		},
+		"millisecond": {
+			"label": "Millisecond",
+			"short": "ms"
+		},
+		"second": {
+			"label": "Second",
+			"short": "s"
+		},
+		"minute": {
+			"label": "Minute",
+			"short": "min"
+		},
+		"hour": {
+			"label": "Hour",
+			"short": "h"
+		},
+		"day": {
+			"label": "Day",
+			"short": "d"
+		},
+		"week": {
+			"label": "Week",
+			"short": "w"
+		},
+		"month": {
+			"label": "Month",
+			"short": "m"
+		},
+		"year": {
+			"label": "Year",
+			"short": "y"
+		},
+		"decade": {
+			"label": "Decade",
+			"short": "dec"
+		},
+		"century": {
+			"label": "Century",
+			"short": "cent"
+		},
+		"millennium": {
+			"label": "Millennium",
+			"short": "mill"
+		}
+	},
+
+	"volume": {
+		"milliliter": {
+			"label": "Milliliter",
+			"short": "mL"
+		},
+		"centiliter": {
+			"label": "Centiliter",
+			"short": "cL"
+		},
+		"deciliter": {
+			"label": "Deciliter",
+			"short": "dL"
+		},
+		"liter": {
+			"label": "Liter",
+			"short": "L"
+		},
+		"cubic-centimeter": {
+			"label": "Cubic centimeter",
+			"short": "cm³"
+		},
+		"cubic-meter": {
+			"label": "Cubic meter",
+			"short": "m³"
+		},
+		"cubic-kilometer": {
+			"label": "Cubic kilometer",
+			"short": "km³"
+		},
+
+		"cubic-inch": {
+			"label": "Cubic inch",
+			"short": "in³"
+		},
+		"cubic-foot": {
+			"label": "Cubic foot",
+			"short": "ft³"
+		},
+		"cubic-yard": {
+			"label": "Cubic yard",
+			"short": "yd³"
+		},
+		"fluid-ounce-uk": {
+			"label": "Fluid ounce",
+			"short": "fl oz",
+			"append": "(UK)"
+		},
+		"cup-uk": {
+			"label": "Cup",
+			"short": "cup",
+			"append": "(UK)"
+		},
+		"pint-uk": {
+			"label": "Pint",
+			"short": "pt",
+			"append": "(UK)"
+		},
+		"quart-uk": {
+			"label": "Quart",
+			"short": "qt",
+			"append": "(UK)"
+		},
+		"gallon-uk": {
+			"label": "Gallon",
+			"short": "gal",
+			"append": "(UK)"
+		},
+
+		"fluid-ounce-us": {
+			"label": "Fluid ounce",
+			"short": "fl oz",
+			"append": "(US)"
+		},
+		"cup-us": {
+			"label": "Cup",
+			"short": "cup",
+			"append": "(US)"
+		},
+		"pint-us": {
+			"label": "Pint",
+			"short": "pt",
+			"append": "(US)"
+		},
+		"quart-us": {
+			"label": "Quart",
+			"short": "qt",
+			"append": "(US)"
+		},
+		"gallon-us": {
+			"label": "Gallon",
+			"short": "gal",
+			"append": "(US)"
+		}
+	},
+
+	"weight": {
+		"microgram": {
+			"label": "Microgram",
+			"short": "µg"
+		},
+		"milligram": {
+			"label": "Milligram",
+			"short": "mg"
+		},
+		"centigram": {
+			"label": "Centigram",
+			"short": "cg"
+		},
+		"decigram": {
+			"label": "Decigram",
+			"short": "dg"
+		},
+		"gram": {
+			"label": "Gram",
+			"short": "g"
+		},
+		"kilogram": {
+			"label": "Kilogram",
+			"short": "kg"
+		},
+		"ton-metric": {
+			"label": "Ton",
+			"short": "t",
+			"append": "(metric)"
+		},
+
+		"ounce": {
+			"label": "Ounce",
+			"short": "oz"
+		},
+		"pound": {
+			"label": "Pound",
+			"short": "lbs"
+		},
+
+		"short-ton": {
+			"label": "Ton",
+			"short": "t",
+			"append": "(US)"
+		},
+		"stone": {
+			"label": "Stone",
+			"short": "st"
+		},
+		"long-ton": {
+			"label": "Ton",
+			"short": "t",
+			"append": "(UK)"
+		},
+
+		"carat": {
+			"label": "Carat",
+			"short": "ct"
+		}
+	}
+}

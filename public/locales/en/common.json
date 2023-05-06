@@ -1,0 +1,51 @@
+{
+	"app-title": "Converter App",
+	"header-burger": {
+		"close": "Close navigation",
+		"open": "Open navigation"
+	},
+
+	"categories": {
+		"common": {
+			"label": "Common",
+			"length": "Length",
+			"area": "Area",
+			"volume": "Volume",
+			"weight": "Weight",
+			"speed": "Speed",
+			"time": "Time"
+		},
+		"lifestyle": {
+			"label": "Lifestyle",
+			"fuel-consumption": "Fuel consumption"
+		},
+		"science": {
+			"label": "Science",
+			"temperature": "Temperature",
+			"pressure": "Pressure",
+			"energy": "Energy",
+			"power": "Power",
+			"force": "Force",
+			"frequency": "Frequency",
+			"angle": "Angle",
+			"data": "Data",
+			"numbers": "Numbers"
+		},
+		"computing": {
+			"label": "Computing",
+			"data-storage": "Data storage"
+		}
+	},
+
+	"simple-converter": {
+		"text-input": {
+			"placeholder": "Enter the value to convert",
+			"label": "Value"
+		},
+		"unit-select": {
+			"label": "Choose unit to convert from",
+			"placeholder": "Select unit",
+			"nothing-found": "No units found"
+		}
+	}
+}
