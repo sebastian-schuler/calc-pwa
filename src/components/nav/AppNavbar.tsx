@@ -1,4 +1,5 @@
 import { Accordion, Navbar, ScrollArea, UnstyledButton, createStyles, rem } from '@mantine/core';
+import { useOs } from '@mantine/hooks';
 import { useSpotlight } from '@mantine/spotlight';
 import { useTranslation } from 'react-i18next';
 import { FaSearch } from 'react-icons/fa';
@@ -81,6 +82,7 @@ const AppNavbar = ({ categories, opened, close }: Props) => {
   const navigate = useNavigate();
   const { pathname } = useLocation();
   const spotlight = useSpotlight();
+  const os = useOs();
 
   const getOnClick = (href: string): void => {
     close();
@@ -139,9 +141,13 @@ const AppNavbar = ({ categories, opened, close }: Props) => {
           <FaSearch className='text-dark-300' />
           <div className='text-dark-400'>Search</div>
         </div>
-        <div>
-          <div className='bg-dark-800 text-dark-100 font-mono py-1 px-2 rounded text-[0.625rem] leading-none'>Ctrl + K</div>
-        </div>
+        {
+          (os === 'macos' || os === 'linux' || os === 'windows') && (
+            <div>
+              <div className='bg-dark-800 text-dark-100 font-mono py-1 px-2 rounded text-[0.625rem] leading-none'>Ctrl + K</div>
+            </div>
+          )
+        }
       </button>
 
       <Navbar.Section className={classes.section}>
