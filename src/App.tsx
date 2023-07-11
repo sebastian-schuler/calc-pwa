@@ -33,8 +33,6 @@ export default function App(): ReactElement {
 						<Suspense fallback={<LoadingOrError />}>
 							<Routes>
 								<Route path='/' element={<Home categories={categories} />} />
-								{/* <Route path=':fruitName' element={<Details />} /> */}
-								{/* <Route path='*' element={<SimpleCalcRouter />} /> */}
 								<Route path=':calculator' element={<SimpleCalcRouter categories={categories} />} />
 							</Routes>
 						</Suspense>

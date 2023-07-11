@@ -14,7 +14,7 @@ type Props = {
 
 const AddFavouriteModal = ({ opened, close, unitCategories, addFavourite }: Props) => {
 
-  const { t } = useTranslation(['common', 'simple-converter']);
+  const { t } = useTranslation(['common', 'simple-converter', 'index']);
 
   // States
   const [unitCategory, setUnitCategory] = useState<string | null>(null);
@@ -45,7 +45,7 @@ const AddFavouriteModal = ({ opened, close, unitCategories, addFavourite }: Prop
         <div className='flex flex-col gap-6 my-8'>
 
           <div className='flex justify-between text-white'>
-            <div className='font-semibold text-xl'>Create favourite</div>
+            <div className='font-semibold text-xl'>{t('index:addFavourite.header')}</div>
             <button
               className='flex relative h-8 w-8 rounded-lg items-center justify-center border-none bg-transparent hover:bg-dark-700 active:translate-y-0.5 cursor-pointer'
               onClick={close}
@@ -55,9 +55,9 @@ const AddFavouriteModal = ({ opened, close, unitCategories, addFavourite }: Prop
           </div>
 
           <div className='flex flex-col'>
-            <div>Category</div>
+            <div>{t('index:addFavourite.subheaderCategory')}</div>
             <Select
-              placeholder="Pick one"
+              placeholder={t('index:addFavourite.placeholderCategory')}
               value={unitCategory}
               onChange={(value) => setUnitCategory(value)}
               data={unitCategories.map((unit) => ({ value: unit.slug, label: t(unit.label) + "" }))}
@@ -65,21 +65,21 @@ const AddFavouriteModal = ({ opened, close, unitCategories, addFavourite }: Prop
           </div>
 
           <div className='flex flex-col'>
-            <div>Type of favourite</div>
+            <div>{t('index:addFavourite.subheaderType')}</div>
             <SegmentedControl
               value={type}
               onChange={() => setType(type === 'shortcut' ? 'converter' : 'shortcut')}
               data={[
-                { label: 'Shortcut', value: 'shortcut' },
-                { label: 'Converter', value: 'converter' },
+                { label: t('index:typeShortcut'), value: 'shortcut' },
+                { label: t('index:typeConverter'), value: 'converter' },
               ]}
             />
           </div>
 
           <div className='flex flex-col'>
-            <div>From unit (optional)</div>
+            <div>{t('index:addFavourite.subheaderFrom')}</div>
             <Select
-              placeholder="Pick one"
+              placeholder={t('index:addFavourite.placeholderFrom')}
               value={fromUnit}
               onChange={(value) => setFromUnit(value)}
               data={unitSelectData}
@@ -90,9 +90,9 @@ const AddFavouriteModal = ({ opened, close, unitCategories, addFavourite }: Prop
             type === 'converter' &&
             (
               <div className='flex flex-col'>
-                <div>To unit (optional)</div>
+                <div>{t('index:addFavourite.subheaderTo')}</div>
                 <Select
-                  placeholder="Pick one"
+                  placeholder={t('index:addFavourite.placeholderTo')}
                   value={toUnit}
                   onChange={(value) => setToUnit(value)}
                   data={unitSelectData}
@@ -101,14 +101,14 @@ const AddFavouriteModal = ({ opened, close, unitCategories, addFavourite }: Prop
             )
           }
 
-          <div>
+          <div className='self-end'>
             <Button
               w={200}
               onClick={() => {
                 addFavourite(unitCategory!, type, fromUnit, toUnit);
                 close();
               }}
-            >Save</Button>
+            >{t('index:addFavourite.buttonSave')}</Button>
           </div>
 
         </div>

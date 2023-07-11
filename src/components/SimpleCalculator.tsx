@@ -57,7 +57,7 @@ export default function SimpleCalculator({ calcData, unitQuery }: Props): ReactE
 
   return (
     <>
-      <Head title='Vitamin' />
+      <Head title={'Converter | ' + t(title)} />
       <div className='h-full'>
         <h1 className='text-3xl font-bold m-0'>{t(title)}</h1>
         <div className='flex flex-col gap-4 h-full'>

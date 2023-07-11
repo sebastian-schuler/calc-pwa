@@ -1,1 +1,26 @@
-{}
+{
+	"homeHeader": "Home",
+
+	"addFavourite": {
+		"button": "Add a favourite",
+		"header": "Add favourite",
+		"subheaderCategory": "Category",
+		"subheaderType": "Type of favourite",
+		"subheaderFrom": "From unit (optional)",
+		"subheaderTo": "To unit (optional)",
+		"placeholderCategory": "Select a category",
+		"placeholderFrom": "Select a unit",
+		"placeholderTo": "Select a unit",
+		"buttonSave": "Save"
+	},
+
+	"typeShortcut": "Shortcut",
+	"typeConverter": "Converter",
+
+	"removeFavourite": {
+		"button": "Remove a favourite",
+		"header": "Remove favourite",
+		"buttonDelete": "Delete",
+		"buttonDone": "Done"
+	}
+}
